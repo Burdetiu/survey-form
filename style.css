@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  display: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 360px;	
+	
+}
+
+.info {
+	background-color: #7f3cb0;
+	max-width: 360px;
+	padding: 1em;
+	
+}
+.info h3 span {
+	color: white;
+}
+
+.info ul {
+	list-style: none;
+	margin-left: -40px;
+}
+
+
+.surveyForm {
+	background-color: #dedbe0;
+	max-width: 360px;
+	padding: 1em;
+}
+
+.fullWidth label {
+	display: block;
+	color: #7d39af;
+}
+
+.fwidthInputs {
+	width: 100%;
+}
+
+.halfWidth label {
+	display: block;
+}
+
+.leftSide {
+	float: left;
+	margin-right: 20px;
+}
+
+
+.select {
+	width: 152px;
+}
+
+.genderPref {
+	display: flex;
+	margin-top: -10px;	
+}
+.gender {
+	margin-right: 130px;
+}
+
+input[type="radio"] {
+	display: inline-block;
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+}
+
+textarea {
+	margin-top: -10px;
+	width: 100%;
+	resize: none;
+}
+
+button {
+	background-color: #7d39af;
+	border: none;
+	height: 25px;
+	color: white;
+	transition: .5s;
+}
+button:hover {
+	box-shadow: 0px 5px 10px gray; 
+}
